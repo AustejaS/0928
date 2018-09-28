@@ -1,0 +1,62 @@
+/* General styles - put these straight into your stylesheet */
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #999;
+}
+
+.card {
+  width: 35em;
+  height: 22em;
+  margin: 25px auto;
+  background-color: #3583EE;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+  /* border: solid 5px red; */
+
+}
+
+.card header {
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
+  padding: 10px;
+  /* border: solid 5px purple; */
+}
+
+.card footer {
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+  border-radius: 0 0 1.5em 1.5em;
+  padding: 8px;
+  /* border: solid 5px green; */
+}
+
+.card article img {
+  max-height: 100%;
+  float: right;
+  border-radius: 5% 0% 0% 5%;
+  display: inline-block;
+  /* margin: 0; */
+  /* padding: 10px; */
+  /* overflow: visible; */
+
+}
+/* .info {
+  border: solid 5px pink;
+  padding: 10px;
+  margin: 0;
+
+} */
+.card article {
+  height: 100px;
+  background-color: rgba(0,0,0,0.25);
+  padding-left: 10px;
+}
+.info {
+  padding-top: 10px;
+  color: white;
+}
